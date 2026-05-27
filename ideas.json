@@ -1,0 +1,98 @@
+{
+  "categories": [
+    {
+      "name": "Drawing & Sketching",
+      "ideas": [
+        "Sketch everything on your desk right now as a still life",
+        "Draw your non-dominant hand in 5 different positions",
+        "Sketch a face using only geometric shapes",
+        "Draw the view from your nearest window",
+        "Fill a page with 20 thumbnail doodles of random objects around you"
+      ]
+    },
+    {
+      "name": "Painting",
+      "ideas": [
+        "Paint a 3-color limited palette landscape (pick any 3)",
+        "Do a loose watercolor of something you can see right now",
+        "Paint a simple portrait from a reference photo on your phone",
+        "Try wet-on-wet watercolor and let it do its own thing",
+        "Paint the same object 4 times in 4 different lighting moods"
+      ]
+    },
+    {
+      "name": "Markers & Ink",
+      "ideas": [
+        "Create a bold black-and-white pattern using only straight lines",
+        "Letter your name in 5 completely different hand-lettering styles",
+        "Draw a city skyline in silhouette with a single marker",
+        "Fill a page with repeating pattern tiles",
+        "Ink a detailed zentangle or geometric mandala"
+      ]
+    },
+    {
+      "name": "Collage & Mixed Media",
+      "ideas": [
+        "Make a collage from old magazines using only one color family",
+        "Create a vision board for a fictional character",
+        "Tear and layer paper scraps into an abstract landscape",
+        "Make a mini zine — fold one sheet of paper into 8 panels and fill them"
+      ]
+    },
+    {
+      "name": "Graphic Design & Digital",
+      "ideas": [
+        "Design a fake album cover for an imaginary band",
+        "Make a poster for a movie that doesn't exist",
+        "Redesign the logo of your favorite brand from scratch",
+        "Create a 3-color minimal travel poster for your city",
+        "Design a fake restaurant menu with a specific aesthetic"
+      ]
+    },
+    {
+      "name": "Printmaking & Stamps",
+      "ideas": [
+        "Carve a simple linocut stamp and print a pattern with it",
+        "Make a monoprint by rolling ink on glass and pressing paper",
+        "Create potato stamps and tile them into a repeating pattern",
+        "Print with found objects — leaves, bubble wrap, cardboard edges"
+      ]
+    },
+    {
+      "name": "Branding & Identity",
+      "ideas": [
+        "Design a full brand identity for a fake small business (logo, colors, font)",
+        "Create a mood board for a brand aesthetic you find interesting",
+        "Redesign your own personal logo or initials as a monogram",
+        "Pick a local business you love and redesign their visual identity"
+      ]
+    },
+    {
+      "name": "Typography & Lettering",
+      "ideas": [
+        "Hand-letter a quote you like in three different styles",
+        "Design a custom alphabet from scratch with a consistent theme",
+        "Create a typographic poster using only words and layout, no images",
+        "Recreate a famous logo from memory, then compare"
+      ]
+    },
+    {
+      "name": "3D & Sculpture",
+      "ideas": [
+        "Sculpt a small figure or animal from air-dry clay or tin foil",
+        "Build a small architectural model from cardboard and tape",
+        "Learn one new origami fold you've never done before",
+        "Make a paper sculpture that can stand on its own"
+      ]
+    },
+    {
+      "name": "Photography & Composition",
+      "ideas": [
+        "Shoot 10 photos with a strict constraint (only circles, only shadows, only red things)",
+        "Recreate a famous painting as a photo using stuff around your house",
+        "Create a flat lay composition on your floor and photograph it",
+        "Shoot a 5-image visual story with no people in any frame"
+      ]
+    }
+  ]
+}

@@ -1,6 +1,11 @@
 const startBtn = document.querySelector(".start-btn");
 const containers = document.querySelector(".containers");
-const categoryBtn = document.querySelector(".category-btn");
+const categories = document.querySelector(".categories");
+const ideas = document.querySelector(".ideas");
+const spinBtn = document.querySelector(".spin-btn");
+
+let allCategories = null;
+let selectedCategory = null;
 
 function showContainers() {
   console.log("start btn pressed");
@@ -10,31 +15,31 @@ function showContainers() {
 
 startBtn.addEventListener("click", showContainers);
 
+fetch("./ideas.json")
+  .then((response) => response.json())
+  .then((data) => {
+    allCategories = data.categories;
+  });
+
 function fetchAndDisplay() {
-  fetch("./ideas.json")
-    .then((response) => response.json())
-    .then((data) => {
-      const category = data.categories;
-      const randomNumC = Math.floor(Math.random() * category.length);
-      const randomNumI = Math.floor(
-        Math.random() * category[randomNumC].ideas.length,
-      );
+  const randomNumC = Math.floor(Math.random() * allCategories.length);
+  selectedCategory = allCategories[randomNumC];
+  getCategory(selectedCategory.name);
 
-      const newIdea = `${category[randomNumC].name}`;
-      getIdea(newIdea);
-      console.log(category);
-      // console.log("random c", category[randomNumC]);
-      // console.log("r i ", randomNumI);
-      // console.log("length", category[randomNumC].ideas.length);
-      // console.log(data.categories[1].ideas[3]);
-    });
+  setTimeout(() => {
+    const randomNumI = Math.floor(
+      Math.random() * selectedCategory.ideas.length,
+    );
+    const newIdea = selectedCategory.ideas[randomNumI];
+    getIdea(newIdea);
+  }, 1500);
 }
 
+function getCategory(newCategory) {
+  categories.innerHTML = newCategory;
+}
 function getIdea(newIdea) {
-  const p = document.createElement("p");
-  const div = document.querySelector(".cateogories");
-  div.innerHTML = "";
-  p.textContent = newIdea;
-  div.append(p);
+  ideas.innerHTML = newIdea;
 }
-categoryBtn.addEventListener("click", fetchAndDisplay);
+
+spinBtn.addEventListener("click", fetchAndDisplay);

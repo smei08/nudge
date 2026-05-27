@@ -8,7 +8,7 @@
       content="nudge helps you to get started, turns small ideas into something real"
     />
     <link rel="icon" href="/favicon.ico" />
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="style.css" />
     <title>NUDGE</title>
   </head>
   <body>
@@ -20,15 +20,20 @@
       </p>
     </header>
     <main>
-      <div class="start-btn">
-        <button>CLICK TO GET STARTED</button>
+      <div>
+        <button class="start-btn">CLICK TO GET STARTED</button>
       </div>
-      <div class="category-container">
-        <button class="category-btn">spin me</button>
-      </div>
-      <div class="idea-container">
-        <button class="idea-btn">spin me</button>
-      </div>
+      <section class="containers">
+        <div class="category-container">
+          <div class="cateogories spinner"></div>
+          <!-- <button class="category-btn">spin me</button> -->
+        </div>
+        <div class="idea-container">
+          <div class="ideas spinner"></div>
+          <button class="idea-btn">spin me</button>
+        </div>
+      </section>
     </main>
+    <script src="./app.js"></script>
   </body>
 </html>

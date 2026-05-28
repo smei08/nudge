@@ -10,7 +10,7 @@ let selectedCategory = null;
 function showContainers() {
   console.log("start btn pressed");
   containers.style.display = "block";
-  startBtn.style.display = "none";
+  // startBtn.style.display = "none";
 }
 
 startBtn.addEventListener("click", showContainers);

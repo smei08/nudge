@@ -32,7 +32,7 @@ function fetchAndDisplay() {
     );
     const newIdea = selectedCategory.ideas[randomNumI];
     getIdea(newIdea);
-  }, 1500);
+  }, 500);
 }
 
 function getCategory(newCategory) {

@@ -95,10 +95,24 @@ button {
   position: relative;
   z-index: 3;
 }
+main {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 .spinner {
-  border: 3px solid pink;
   padding: 6rem;
+  border: 4px solid color-mix(in srgb, var(--color-secondary) 20%, transparent);
+  margin: 10px 0;
+  border-radius: 20px;
+  background-color: color-mix(in srgb, var(--color-secondary) 20%, transparent);
 }
 .containers {
   display: none;
+
+  width: 100%;
+  font-size: 3rem;
+  color: var(--color-primary);
 }
